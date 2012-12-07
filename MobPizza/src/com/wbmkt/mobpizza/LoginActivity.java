@@ -65,7 +65,7 @@ public class LoginActivity extends Activity {
         dataSource = new PizzasDataSource(this);
         dataSource.open();
         
-        //teste
+        //teste erick
 
         // Set up the login form.
         mEmail = getIntent().getStringExtra(EXTRA_EMAIL);
