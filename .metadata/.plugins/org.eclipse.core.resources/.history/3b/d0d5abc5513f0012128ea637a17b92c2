@@ -1,0 +1,5 @@
+package com.wbmkt.mobpizza.vo;
+
+public class Pizza {
+
+}

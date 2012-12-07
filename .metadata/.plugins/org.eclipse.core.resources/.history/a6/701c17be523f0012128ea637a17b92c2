@@ -1,0 +1,5 @@
+package com.wbmkt.mobpizza.dao;
+
+public class PizzasDataSource {
+
+}

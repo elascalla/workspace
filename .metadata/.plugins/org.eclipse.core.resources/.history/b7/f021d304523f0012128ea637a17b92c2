@@ -1,0 +1,10 @@
+package com.wbmkt.mobpizza.vo;
+
+public class Pizza {
+	
+	private Long id;
+	private String pizza;
+	
+	
+
+}

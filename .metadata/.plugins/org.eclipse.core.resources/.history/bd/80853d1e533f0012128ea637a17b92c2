@@ -1,0 +1,22 @@
+package com.wbmkt.mobpizza.dao;
+
+import com.wbmkt.helper.MySQLiteHelper;
+
+import android.content.Context;
+import android.database.SQLException;
+import android.database.sqlite.SQLiteDatabase;
+
+public class PizzasDataSource {
+	
+	private SQLiteDatabase database;
+	private MySQLiteHelper dbHelper;
+	private String[] allColumns = {MySQLiteHelper.COLUMN_ID, MySQLiteHelper.COLUMN_PIZZA};
+	
+	public PizzasDataSource(Context context) {
+		dbHelper = new MySQLiteHelper(context);
+	}
+	
+	public void open() throws SQLException {
+		
+	}
+}

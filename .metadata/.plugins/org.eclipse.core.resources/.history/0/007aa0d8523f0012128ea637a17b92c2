@@ -1,0 +1,14 @@
+package com.wbmkt.mobpizza.dao;
+
+import com.wbmkt.helper.MySQLiteHelper;
+
+import android.database.sqlite.SQLiteDatabase;
+
+public class PizzasDataSource {
+	
+	private SQLiteDatabase database;
+	private MySQLiteHelper dbHelper;
+	private String[] allColumns = { MySQLiteHelper.COLUMN_ID, MySQLiteHelper.COLUMN_PIZZA };
+	
+
+}
