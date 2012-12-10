@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+			android:id="@+id/textView1"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:layout_height="0dp"
+			android:text="Nome:"></TextView>
+		<EditText
+			android:layout_width="fill_parent"
+			android:layout_weight="1"
+			android:layout_height="0dp"
+			android:inputType="textPersonName"
+			android:hint="Digite o nome aqui..."
+			android:id="@+id/nome">
+			<requestFocus></requestFocus>
+		</EditText>
+		<TextView
+			android:id="@+id/textView2"
+			android:layout_width="wrap_content"
+			android:layout_weight="1"
+			android:layout_height="0dp"
+			android:text="Valor:"></TextView>
+		<EditText
+			android:layout_width="fill_parent"
+			android:layout_weight="1"
+			android:layout_height="0dp"
+			android:inputType="text|numberDecimal"
+			android:hint="Digite o valor aqui..."
+			android:id="@+id/valor">
+		</EditText>
+		<Button
+			android:layout_weight="1"
+			android:layout_height="0dp"
+			android:layout_width="fill_parent"
+			android:text="Inserir"
+			android:id="@+id/botao"></Button>
+	</LinearLayout>
+</ScrollView>
